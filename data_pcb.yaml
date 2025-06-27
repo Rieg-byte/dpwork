@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Bad_podu', 'Bad_qiaojiao']
+
+roboflow:
+  workspace: tsetsen-kedyaev
+  project: pcb_aoi-e7skb
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/tsetsen-kedyaev/pcb_aoi-e7skb/dataset/1
